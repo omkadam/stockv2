@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stock-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stock-app
+  template:
+    metadata:
+      labels:
+        app: stock-app
+    spec:
+      containers:
+        - name: stock-container
+          image: omkadam/stockproj:omk  
+          ports:
+            - containerPort: 3000

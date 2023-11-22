@@ -1,0 +1,5 @@
+curl -X 'GET' 
+   'https://api-v2.upstox.com/market-quote/quotes?symbol=NSE_EQ%7CINE848E01039' 
+ -H 'accept: application/json' 
+ -H 'Api-Version: 2.0' 
+ -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiI0RkJQS0MiLCJqdGkiOiI2NTMzNjhlYThiM2IzMDE5YzEzNzA0NGYiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaXNBY3RpdmUiOnRydWUsInNjb3BlIjpbImludGVyYWN0aXZlIiwiaGlzdG9yaWNhbCJdLCJpYXQiOjE2OTc4NjgwMTAsImlzcyI6InVkYXBpLWdhdGV3YXktc2VydmljZSIsImV4cCI6MTY5NzkyNTYwMH0.FuiWhtV1Lm1drPVPYf07TwVVnidfTAHxdbsy4wjETnM'
