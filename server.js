@@ -190,6 +190,10 @@ app.get("/", (req, res) => {
     // res.render("main");
 })
 
+app.get('/index', (req, res)=>{
+    res.render('index')
+})
+
 axios.get(apiUrl)
     .then((response) => {
         // Handle the response here
