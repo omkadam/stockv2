@@ -1,7 +1,9 @@
 const axios = require('axios');
+const cors = require('cors');
 const express = require('express');
 const { response } = require('express');
 const mongoose = require('mongoose')
+
 
 const apiKey = 'AHWNG05CHF73W0IQ';
 
@@ -11,6 +13,7 @@ const overview = 'https://www.alphavantage.co/query?function=OVERVIEW&symbol=IBM
 
 
 const app = express();
+app.use(cors());
 // Mongodb connection
 const mongoURI = "mongodb+srv://manthanbodkhe1:Indianarmy13@cluster0.piunjeh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 

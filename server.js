@@ -1,4 +1,6 @@
 require("dotenv").config();
+const cors = require('cors');
+app.use(cors());
 var Upstox = require("upstox")
 const express = require("express")
 const app = express()
